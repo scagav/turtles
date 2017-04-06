@@ -1,0 +1,149 @@
+html{
+  font-size: 18px;
+  background-color: white;
+  font-family: helvetica;
+}
+
+.top{
+  background-image: url("../images/glasses-bg.png");
+  height: 31rem;
+  display: block;
+  background-size: cover;
+  background-position: center;
+}
+
+.company{
+  max-width: 960px;
+  margin: 0px auto;
+  display: flex;
+  background-color: cadetblue;
+  align-items: center;
+  color: white;
+}
+
+.headtop{
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo{
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+}
+
+.logo img{
+  padding-left: 2rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+
+
+nav{
+  width: 100%;
+}
+
+ul{
+  width: 100%;
+  border: black;
+  display: inline-flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+li{
+    padding: 1rem 2rem;
+}
+
+.mobile {
+    display: none;
+}
+
+.banner{
+  width: 1000px;
+  display: flex;
+  margin: 0px auto;
+  justify-content: flex-end;
+  margin-top: 10rem;
+}
+
+.slogan{
+
+  background-color: white;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.site{
+  max-width: 960px;
+  margin: 0 auto;
+  height: 8rem;
+  display: block;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0rem;
+}
+
+.services img{
+  height: 2.5rem;
+  width: auto;
+  padding-bottom: .5rem;
+}
+
+.exams, .fittings, .delivery{
+  padding: 0rem 3rem;
+  display: block;
+  text-align: center;
+}
+
+.info{
+  max-width: 960px;
+  margin: 0 auto;
+
+  display: block;
+}
+
+.contact{
+  display: inline-flex;
+  padding-bottom: 4rem;
+}
+.second{
+  width: 35%;
+  padding-right: 5%;
+
+}
+
+.title{
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: .5rem 1.25rem;
+}
+
+.second p{
+  padding-top: 1rem;
+}
+
+.footer{
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  padding: 4rem 0rem 4rem 3rem;
+}
+
+.bottom img{
+  padding-right: 1rem;
+}
